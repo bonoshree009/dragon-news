@@ -18,12 +18,12 @@ const Home = () => {
         
         <main className='w-11/12 mx-auto grid grid-cols-12   gap-4 '>
            
-      <aside className='col-span-3'><LeftAside></LeftAside></aside>
+      <aside className='col-span-3 sticky h-fit top-0'><LeftAside></LeftAside></aside>
 
           <section className='main  col-span-6'>
             <Outlet></Outlet>
              </section>
-        <aside className='col-span-3'><RightAside></RightAside></aside>
+        <aside className='col-span-3 sticky h-fit top-0'><RightAside></RightAside></aside>
       
         
         </main>
