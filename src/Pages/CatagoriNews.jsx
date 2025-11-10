@@ -6,7 +6,7 @@ const CatagoriNews = () => {
     const {id}=useParams()
     const data =useLoaderData();
     const [catagoriNews ,setcatagoriNews] =useState([])
-    console.log(id,data)
+    //console.log(id,data)
 
     useEffect(() => {
         if(id == 0){
