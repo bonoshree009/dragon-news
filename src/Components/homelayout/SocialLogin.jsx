@@ -8,8 +8,8 @@ const SocialLogin = () => {
         <div>
           <p className='font-bold mb-5'>Login With</p>
           <div className='space-y-3 '>
-            <button className='btn btn-outline w-full btn-secondary'>   <FcGoogle  size={30}/>  Login With Google </button>
-          <button className='btn btn-outline w-full btn-primary'> <FaGithub  size={30} /> Login With GitHub</button></div>
+            <button className='btn btn-outline w-full btn-secondary'>   <FcGoogle  size={30}/>  <span className="hidden md:inline">Login With Google</span></button>
+          <button className='btn btn-outline w-full btn-primary'> <FaGithub  size={30} />  <span className="hidden md:inline">Login With GitHub</span></button></div>
         </div>
     );
 };

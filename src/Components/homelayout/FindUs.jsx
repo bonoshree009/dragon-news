@@ -7,9 +7,9 @@ const FindUs = () => {
         <div className=''>
             <h1 className='font-bold'>Find Us On</h1>
             <div className="join join-vertical w-full">
-  <button className="btn join-item bg-base-100  justify-start ">  <FaFacebook size={25}></FaFacebook>    FaceBook</button>
-  <button className="btn join-item bg-base-100  justify-start">  <AiFillTwitterCircle size={25}/> Twitter</button>
-  <button className="btn join-item bg-base-100  justify-start"> <FaInstagram size={25}/> Istragram</button>
+  <button className="btn join-item bg-base-100  justify-start ">  <FaFacebook size={25}></FaFacebook>  <span className="hidden md:inline">FaceBook</span>  </button>
+  <button className="btn join-item bg-base-100  justify-start">  <AiFillTwitterCircle size={25}/> <span className="hidden md:inline">Twitter</span> </button>
+  <button className="btn join-item bg-base-100  justify-start"> <FaInstagram size={25}/><span className="hidden md:inline">Istragram</span> </button>
 </div>
         </div>
     );

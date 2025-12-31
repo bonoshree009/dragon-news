@@ -24,14 +24,8 @@ const Register = () => {
         setuser(user)
        })
        
-        
       }).
-      catch(err => {
-        console.log(err)
-     
-      })
-
-
+      catch(err => {console.log(err) })
 
     }
     return (

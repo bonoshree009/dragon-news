@@ -27,7 +27,7 @@ const NewsCard = ({ news }) => {
   return (
     <div className="card w-full  shadow-md hover:shadow-xl transition-all duration-300 ">
       {/* Author section */}
-      <div className="flex justify-between items-center p-4 bg-gray-200 ">
+      <div className="flex justify-between items-center p-1 md:p-4 bg-gray-200 ">
         <div className="flex items-center gap-3">
           <img
             src={author.img}
@@ -35,8 +35,8 @@ const NewsCard = ({ news }) => {
             className="w-10 h-10 rounded-full object-cover"
           />
           <div>
-            <h3 className="font-semibold">{author.name}</h3>
-            <p className="text-sm text-gray-500">{formattedDate}</p>
+            <h3 className="font-semibold text-[10px] md:text-xl">{author.name}</h3>
+            <p className="text-[10px] md:text-sm text-gray-500">{formattedDate}</p>
           </div>
         </div>
         <div>
@@ -53,7 +53,7 @@ const NewsCard = ({ news }) => {
 
       {/* Title */}
       <div className="px-4 pt-3">
-        <h2 className="text-lg font-bold leading-snug">{title}</h2>
+        <h2 className="text-[10px] md:text-lg font-bold leading-snug">{title}</h2>
       </div>
 
       {/* Thumbnail */}
